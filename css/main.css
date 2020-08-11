@@ -367,14 +367,22 @@ margin-right: 100px;
 
 
 /*----login page begins--------*/
+.login_body{
+  margin-top: 5%;
+  
+
+}
 
 
 .login_container{ 
-  margin-top: 10%;
+  color: green;
+  background-color:transparent;
+  margin-top: 1%;
   width: 30%;
   height: auto;
-  font-family: Arial;
-  font-size: 18px;
+  font-family: 'Calibri';
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .login_logo{
@@ -382,22 +390,30 @@ margin-right: 100px;
   height: 15%;
 }
 
-.footer_login {
-  margin-top: 10%;
-  width: 100%;
-  position: relative;
+.login_footer {
+  margin-top: 2%;
+  width: 30%;
+  float: 35% 0%;
   height: auto;
   background-color: rgb(240, 244, 247);
 }
 
-
-
-  .footer_content{
-    padding: 20px;
-      width: 100%;
-      height: auto; 
-      margin-top: auto; 
-  }
+.login_button{
+  background-color:rgb(15, 80, 18);
+  width: 30%;
+  font-weight: bolder;
+  padding:5px;
+  border: solid rgb(240, 244, 247) 2pt;
+  cursor: pointer;
+  color: #ccc;
+}
+  
+.footer_content{
+  padding: 20px;
+  width: 100%; 
+  height: auto; 
+  margin-top: 0%; 
+}
 
 
 /*----login page end--------*/
