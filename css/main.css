@@ -374,15 +374,16 @@ margin-right: 100px;
 }
 
 
-.login_container{ 
-  color: green;
-  background-color:transparent;
-  margin-top: 1%;
-  width: 30%;
-  height: auto;
-  font-family: 'Calibri';
+.login_container{
+  margin: auto;
+  padding: auto;
   font-size: 15px;
   font-weight: bolder;
+}
+.login_container table{
+  background-color:#f1f1ef;
+  padding: 30px;
+  margin: auto;
 }
 
 .login_logo{
