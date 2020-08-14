@@ -425,6 +425,92 @@ margin-right: 100px;
 
 
 
+/*----price page begins--------*/
+
+.text_setup{
+  font-family: Calibri;
+  font-weight: bolder;
+  color: #374818 ;
+  font-size: 50px;
+}
+
+.text_tryshopleggo{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color:gray;
+
+
+}
+
+.price_table {
+  font-family: Calibri;
+  border-collapse: collapse;
+  font-size: 16px;
+  width: 60%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+
+#price_table td, #price_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.green_link{
+  color:green;
+}
+  
+
+
+
+.price_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#ddd;
+  color: black;
+}
+
+.text_big{
+  font-weight: bold; 
+  font-size:40px;
+}
+
+.cell_faint{
+ color: gray;
+}
+
+.third_section_pricing{
+  background-color: #ddd;
+  margin-top: 40px;
+  height: 200px;
+  padding: 10px 10px;
+
+}
+
+.fourth_section_pricing{
+
+  margin-top: 40px;
+  height: auto;
+  font-family: 'Trebuchet MS';
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*----price page end--------*/
+
+
 
 
 
