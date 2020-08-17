@@ -319,7 +319,6 @@ cursor: pointer;
   grid-template-columns: 50% 50%;
   padding: 30px;
   background-color: rgb(241, 247, 246);
-  width: 100%;
   height: 200%;  
 }
 
@@ -331,13 +330,10 @@ margin-right: 100px;
 .abt_section {
   display: grid;
   padding: 30px;
-  width: 100%;
   min-height: 200px;
   float: none;
   grid-template-columns: 50% 50%;
   text-align: block;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .support-career-media_section{
@@ -347,8 +343,6 @@ margin-right: 100px;
   min-height: auto;
   float: none;
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .support-career-media_element{
