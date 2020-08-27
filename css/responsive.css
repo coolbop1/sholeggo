@@ -63,3 +63,12 @@
     padding: 0 0 50px 0;
     }
   }
+
+
+  @media (max-width: 767.98px) {
+    .table_responsive{
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
