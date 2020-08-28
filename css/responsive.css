@@ -68,7 +68,7 @@
   @media (max-width: 767.98px) {
     .table_responsive{
       display: block;
-      width: 100%;
+      max-width: calc(100%-60%);
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
     }
