@@ -87,6 +87,9 @@
 
 
 
+
+  /*----signup page1 start--------*/
+
   @media only screen and (max-width: 650px) {
     .main_container_signup, .singup_text, .signup_inputbox, .regular_button_signup{
       width: 90%;
@@ -111,3 +114,68 @@
   }
   
   }
+
+
+
+    /*----signup page1 end--------*/
+
+    @media only screen and (max-width: 500px) {
+      .price_table {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+    /*----about page start--------*/
+    @media only screen and (max-width: 650px){
+
+
+      .abt_header{
+       display: none;}
+
+
+       .sub_header{
+        width: 100%;
+        height: auto;
+       }
+
+
+      }
+      .topnav_button_reponsive{
+        display: none;
+        padding: 2vw;
+        font-size: 3vh;
+        background-color: #afe0ff;}
+
+      .sub_header{
+        display: block;
+        width: 100%;
+        text-align: center;
+
+      }
+
+
+      .support-career-media_element, .support-career-media_section{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .intro_section, .abt_element, .abt_section{
+        align-content: center;
+        text-align: center;
+        display: block;
+        font-family: "Alef", "Arial", monospace;
+        margin: 0;
+       padding: 0;
+        width: 100%;
+      }
+    
+
+
+    
