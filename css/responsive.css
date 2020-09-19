@@ -63,3 +63,51 @@
     padding: 0 0 50px 0;
     }
   }
+
+
+
+
+
+/*----login page begins--------*/
+
+  @media only screen and (max-width: 650px) {
+    .main_container{
+      width: auto;
+      font-size: unset;
+    }
+
+    .label{
+      font-size: unset;
+    }
+  }
+
+  /*----login page end--------*/
+
+
+
+
+
+  @media only screen and (max-width: 650px) {
+    .main_container_signup, .singup_text, .signup_inputbox, .regular_button_signup{
+      width: 90%;
+      font-size: 100%;
+    }
+    #regular_button_signup {
+      width: 90% ;
+      font-size: unset;
+     position: relative;
+     left: -5%;
+
+      
+    
+    }
+
+    #singup_text{
+      font-family: calibri;
+      font-weight: bold;
+      color:white;
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  }
