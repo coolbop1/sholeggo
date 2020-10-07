@@ -9,6 +9,7 @@
     display: none;
 }
 }
+
 @media only screen and (max-width: 500px) {
     .overlay{
         background-color: rgba(0, 0, 0, 0.3);
@@ -119,63 +120,138 @@
 
     /*----signup page1 end--------*/
 
-    @media only screen and (max-width: 500px) {
-      .price_table {
-        width: 100%;
+
+
+
+
+
+
+
+
+
+    
+    /*----price page1 start--------*/
+    @media only screen and (max-width: 650px) {
+      .price_table_1 .price_table{
+        width: 90%;
+      }
+
+      .price_table_1 tr>*:nth-child(3){
+        display: none;
+      }
+
+      .price_table_1 tr>*:nth-child(4){
+        display: none;
+      }
+
+    
+
+      
+      #price_tax_text{
+        width: 90%;
+             }
+
+      .price_table_2{
+        display: block;
+        width: 90%;
+        margin: 0 5%;
+      }
+
+
+      .price_table_3{
+        display: block;
+        width: 90%;
+        margin: 0 5%;
       }
     }
 
+    /*----price page1 end--------*/
 
 
 
 
 
     /*----about page start--------*/
-    @media only screen and (max-width: 650px){
 
 
-      .abt_header{
-       display: none;}
 
+    @media only screen and (max-width: 650px) {
+      
 
-       .sub_header{
-        width: 100%;
-        height: auto;
-       }
+    .abt_header{
+      display: none;
+    }
 
+    .sub_heading, .column_heading{
+    text-align: center;
+    display: block;}
+  
+  
+    .intro_section, .about_section, .mission_section {
+      width: 100%;
+      align-items: center;
+      box-sizing: border-box;
+      display: block;
+      font-family: Helvetica, Arial, Lucida Grande, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 64px 0px 0px 0px;
+      margin: 0px;
+     
+    }
+  
+     
+   
+  .about_element, .intro_element, .mission_element {
+    position: relative;
+    height: auto;
+    width: calc(100% - 50px);
+    padding: 0px 25px 20px 25px;
+    text-align: center;
+    align-content: center;
 
-      }
-      .topnav_button_reponsive{
-        display: none;
-        padding: 2vw;
-        font-size: 3vh;
-        background-color: #afe0ff;}
+    }
 
-      .sub_header{
-        display: block;
-        width: 100%;
-        text-align: center;
-
-      }
-
-
-      .support-career-media_element, .support-career-media_section{
-        display: block;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-      }
-
-      .intro_section, .abt_element, .abt_section{
-        align-content: center;
-        text-align: center;
-        display: block;
-        font-family: "Alef", "Arial", monospace;
-        margin: 0;
-       padding: 0;
-        width: 100%;
-      }
     
+
+    .column_heading, .sub_heading, #about_paragraph{
+      position: relative;
+      height: auto;
+      width: calc(100%-50px);
+      display: block;
+      margin: 0 25px;
+      padding: 0px;
+      text-align: center;
+      float: center;
+      text-justify: center;
+
+    }
+
+    .abt_green_link{
+      width: 100%;
+      text-align: center;
+    
+      }
+
+  #abt_img{
+      display: block;
+      margin:0px auto;
+      padding-top: 30px;
+     
+    
+    }
+
+
+  .support-career-media_element, .support-career-media_section{
+    display: block;
+    margin: 0 10px;
+    padding: 0;
+    width: calc(100%-20px);
+  }
+
+
+}
 
 
     
